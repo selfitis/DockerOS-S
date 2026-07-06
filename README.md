@@ -28,15 +28,13 @@ A minimal, isolated Unix-style shell environment encapsulated within a Docker co
 
 Ensure Docker Engine is active. Execute the following pipeline from the project root:
 
-1. **Build Container Image:**
+1. **Make File Executeable:**
 ```bash
-docker build -t docker-os-s .
+chmod +x calistir.sh
 ```
-
-2. **Instantiate Isolated Session:**
-```bash
-docker run -it --rm --name selfitis_s_kutusu docker-os-s
+2. **Run Executeable**
 ```
-
+./calistir.sh
+```
 ## Maintainer
 Designed and engineered by **Zekeriyya Said Altay (Selfitis)** as a low-level research project on containerization boundaries, custom command-line interfaces, and POSIX shell customization.
