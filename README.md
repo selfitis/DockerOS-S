@@ -23,6 +23,7 @@ A minimal, isolated Unix-style shell environment encapsulated within a Docker co
 | `yazveolustur <f> <m>`| *Macro Function* | Streams inline string payloads into specified targets. |
 | `hafiza` / `diskdurumu`| *Sys Analytics* | Reports container memory metrics and local disk volume layout. |
 | `kapat` | `exit` | Shuts down shell session and destroys volatile container instance. |
+| `ekranverbana` | `"vncpasswd" and "vncserver :1"` | Shuts down shell session and destroys volatile container instance. |
 
 ## Deployment
 
