@@ -4,7 +4,6 @@ RUN pacman -Syu --noconfirm && pacman -S --noconfirm bash && pacman -S --noconfi
 RUN mkdir -p /opt/selfitis
 COPY source.sh /opt/selfitis/source.sh
 COPY cekirdek.sh /opt/selfitis/cekirdek.sh
-COPY Docker_Field /root/
 RUN chmod +x /opt/selfitis/source.sh
 RUN chmod +x /opt/selfitis/cekirdek.sh
 
